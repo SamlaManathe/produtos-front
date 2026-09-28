@@ -7,7 +7,7 @@ import { Produto } from '../models/produto.model';
   providedIn: 'root',
 })
 export class ProdutosService {
-  private readonly apiUrl = 'http://localhost:5027/api/produtos';
+  private readonly apiUrl = 'http://localhost:5001/api/produtos';
 
   constructor(private readonly http: HttpClient) {}
 
